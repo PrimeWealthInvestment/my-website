@@ -197,20 +197,49 @@
     </form>
   </div>
 </section>
-<!-- nav.html -->
-<nav class="bg-blue-900 text-white shadow-md">
-  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-    <div class="text-2xl font-bold tracking-wide">PrimeWealthInvestment</div>
-    <div class="space-x-4">
-      <a href="index.html" class="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-md text-sm font-medium transition">
-        HOME
-      </a>
-      <a href="DASHBOARD.html" class="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-md text-sm font-medium transition">
-        DASHBOARD
-      </a>
-    </div>
-  </div>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Centered Navigation</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+  </nav>
+</body>
+</html>
 <!-- 🔚 Footer -->
 <footer class="bg-blue-900 text-white text-center py-8 px-6">
   <div class="max-w-6xl mx-auto">
@@ -224,4 +253,5 @@
     <p class="text-xs mt-4">Trading involves risk. Please read our <a href="#" class="underline text-teal-300">disclaimer</a>.</p>
   </div>
 </footer>
+
 
